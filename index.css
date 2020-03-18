@@ -1,0 +1,109 @@
+body {
+    width: 100vw;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 45% 45% 10%;
+    width: 100%;
+    height: 20rem;
+}
+header .left {
+    background-color: rgb(164, 211, 195);
+    background-image: url(img/family.png);
+    grid-area: 1/1/3/3;
+}
+header .rightup {
+    grid-area: 1/3/2/5;
+    background-color: rgb(180, 77, 36);
+}   
+header .rightdown {
+    background-color: orange;
+    grid-area: 2/3/3/5;
+} 
+menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(136, 133, 130);
+    grid-area: 3/1/4/5;
+}
+ul{
+    background-color: rgb(136, 133, 130);
+    
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    background-color: rgb(136, 133, 130);
+    
+    margin: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .upper {
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 80vh;
+}
+.upperleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+}
+.upperright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+main .middle {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 350px;
+}
+.imageC{
+    background-color: aquamarine;
+    background-image: url(img/child.png);
+}
+.imageA{
+    background-color: orange;
+    background-image: url(img/adult.png);
+}
+.imageO{
+    background-color: firebrick;
+    background-image: url(img/old.png);
+}
+main .down {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
