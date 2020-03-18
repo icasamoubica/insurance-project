@@ -78,17 +78,37 @@ button {
 main .middle {
     background-color: orange;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     height: 80vh;
 }
 article{
     display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 250px;
     height: 350px;
 }
+article.left{
+    position: relative;
+    top 40px;
+}
+article div{
+    width: 240px;
+    height: 150px;
+}
+.middle .lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .imageC{
+    
     background-color: aquamarine;
     background-image: url(img/child.png);
 }
@@ -106,4 +126,31 @@ main .down {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+section.down div{
+    display: flex;
+}
+section.down div>:nth-child(2){
+    align-self: center;
+    justify-self: center;
+}
+.box1{
+    justify-content: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+.box2{
+    background-color: aliceblue;
+}
+.box3{
+    background-color: rgb(189, 184, 184);
+}
+.box4{
+    background-color: antiquewhite;
+}
+.box5{
+    background-color: rgb(175, 83, 55);
+}
+.box6{
+    background-color: bisque;
 }
