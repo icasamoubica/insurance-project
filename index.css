@@ -7,6 +7,7 @@ body {
     max-width: 1100px;
 }
 p{
+    line-height: 1.7em;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Header part */
@@ -103,6 +104,7 @@ main .upper {
     height: 80vh;
 }
 .upperleft {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,9 +112,14 @@ main .upper {
     width: 50%;
     height: 100%;
 }
+.upperleft button{
+    margin-top: 80px;
+    margin-right: 150px;
+}
 button {
     font-size: 0.7rem;
-    font-weight: bold;
+    font-weight: 900;
+    font-stretch: semi-condensed;
     height: 3rem;
     width: 10rem;
     border-radius: 1.5rem;
@@ -123,6 +130,9 @@ button {
     align-items: center;
     width: 50%;
     height: 100%;
+}
+.upperright p{
+    width: 310px;
 }
 main .middle {
     background-color: orange;
