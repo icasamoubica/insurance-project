@@ -2,9 +2,10 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+    background-color: rgb(231, 238, 243);
 }
 .wrapper{
-    max-width: 1100px;
+    max-width: 1300px;
 }
 p{
     color: rgb(75, 75, 80);
@@ -72,11 +73,11 @@ menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(214, 208, 202);
+    background-color: rgb(231, 238, 243);
     grid-area: 3/1/4/5;
 }
 ul{
-    background-color: rgb(214, 208, 202);
+    background-color: rgb(231, 238, 243);
     
     align-items: center;
     height: 100%;
@@ -88,7 +89,7 @@ ul>:first-child{
     color: black;
 }
 li{
-    background-color: rgb(214, 208, 202);
+    background-color: rgb(231, 238, 243);
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -143,7 +144,7 @@ main .middle {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 /* Articles with pictures */
 article{
@@ -156,15 +157,15 @@ article{
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
 }
 article h3{
     font-size: 1.4em;
 }
 article p{
     width: 80%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 article div{
@@ -173,13 +174,16 @@ article div{
     border-radius: 5px;
     position: relative;
     bottom: 20px;
-    width: 255px;
-    height: 230px;
+    width: 265px;
+    height: 220px;
 }
 .middle .lower {
+    position: relative;
+    bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
     align-items: center;
     padding-bottom: 400px;
 }
@@ -203,7 +207,10 @@ article div{
     background-color: rgb(255, 115, 80);
     background-image: url(img/old.png);
 }
+/* Lower section with boxes */
 section.down {
+    font-weight: 600;
+    font-size: 1.2rem;
     width: 100%;
     height: 65vh;
     display: grid;
@@ -213,15 +220,22 @@ section.down {
 section.down div{
     text-align: center;
     display: flex;
-    justify-content: sp;
+    justify-content: space-between;
 }
-.down div.text{
+.num{
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+.text{
     justify-self: center;
+    align-self: center;
 }
 .box1{
-    align-items: center;
     background-color: aquamarine;
     justify-content: center;
+    align-items: center;
 }
 .box2{
     background-color: aliceblue;
