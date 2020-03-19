@@ -179,7 +179,7 @@ article div{
 }
 .middle .lower {
     position: relative;
-    bottom: 100px;
+    bottom: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
