@@ -8,9 +8,9 @@ body {
     max-width: 1300px;
 }
 p{
-    color: rgb(62, 62, 66);
+    color: rgb(68, 68, 75);
     line-height: 1.7em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* Header part */
 header {
@@ -18,7 +18,7 @@ header {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 45% 45% 10%;
     width: 100%;
-    height: 42rem;
+    height: 800px;
 }
 header div{
     font-size: 1.1rem;
@@ -34,6 +34,10 @@ header .left {
     background-repeat: no-repeat;
     background-position: bottom right;
     grid-area: 1/1/3/3;
+}
+header .left h3, header .left p, header .left button{
+    position: relative;
+    right: 50px;
 }
 header .left h3{
     margin-bottom: 0;
@@ -106,9 +110,11 @@ main .upper {
     display: flex;
     background-color: grey;
     width: 100%;
-    height: 80vh;
+    height: 800px;
 }
 .upperleft {
+    position: relative;
+    bottom: 80px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -117,9 +123,12 @@ main .upper {
     width: 50%;
     height: 100%;
 }
+.upperleft h3{
+    font-size: 4rem;
+}
 .upperleft button{
-    margin-top: 80px;
-    margin-right: 150px;
+    margin-top: 70px;
+    margin-right: 250px;
 }
 button {
     font-size: 0.7rem;
@@ -130,6 +139,10 @@ button {
     border-radius: 1.5rem;
 }
 .upperright {
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,8 +150,9 @@ button {
     height: 100%;
 }
 .upperright p{
-    width: 310px;
+    width: 350px;
 }
+/* Middle */
 main .middle {
     text-align: center;
     justify-content: space-around;
@@ -147,29 +161,30 @@ main .middle {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 90vh;
+    height: 900px;
 }
 /* Articles with pictures */
 article{
     position: relative;
-    bottom: 175px;
+    bottom: 215px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     margin: 18px;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 400px;
+    width: 330px;
+    height: 430px;
 }
 article h3{
     font-size: 1.4em;
 }
 article p{
+    color: grey;
     width: 80%;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 900;
 }
 article div{
     background-repeat: no-repeat;
@@ -177,8 +192,8 @@ article div{
     border-radius: 5px;
     position: relative;
     bottom: 20px;
-    width: 265px;
-    height: 220px;
+    width: 300px;
+    height: 200px;
 }
 .middle .lower {
     position: relative;
@@ -271,6 +286,7 @@ footer{
     height: 60px;
 }
 footer p{
+    color: rgb(29, 28, 28);
     text-align: center;
     margin: 0px;
     font-weight: 700;
@@ -279,7 +295,8 @@ footer p{
 }
 .arrow{
     transform: rotate(135deg);
-    font-weight: 800;
+    font-weight: 900;
     line-height: 0.3;
     margin-top: 10px;
+    font-size: 1.5rem;
 }
