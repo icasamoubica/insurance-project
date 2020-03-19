@@ -8,7 +8,7 @@ body {
     max-width: 1300px;
 }
 p{
-    color: rgb(75, 75, 80);
+    color: rgb(62, 62, 66);
     line-height: 1.7em;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -263,3 +263,23 @@ section.down div{
     margin-right: 52px;
 }
 /* Footer */
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+.arrow{
+    transform: rotate(135deg);
+    font-weight: 800;
+    line-height: 0.3;
+    margin-top: 10px;
+}
