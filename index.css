@@ -10,7 +10,7 @@ body {
 p{
     color: rgb(75, 75, 80);
     line-height: 1.7em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* Header part */
 header {
@@ -66,6 +66,9 @@ header .rightdown {
 header .rightdown p{
     margin: 0;
 } 
+.rightup h3, .rightdown h3{
+    color: white;
+}
 /* Menu between header and main */
 menu{
     margin: 0;
@@ -220,16 +223,15 @@ section.down {
 section.down div{
     text-align: center;
     display: flex;
-    justify-content: space-between;
 }
 .num{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
+    padding-top: 10px;
     padding-left: 20px;
-    padding-top: 20px;
     margin: 0;
 }
 .text{
-    justify-self: center;
     align-self: center;
 }
 .box1{
@@ -238,18 +240,26 @@ section.down div{
     align-items: center;
 }
 .box2{
+    justify-content: space-between;
     background-color: aliceblue;
 }
 .box3{
+    justify-content: space-between;
     background-color: rgb(189, 184, 184);
 }
 .box4{
+    justify-content: space-between;
     background-color: antiquewhite;
 }
 .box5{
+    justify-content: space-between;
     background-color: rgb(175, 83, 55);
 }
 .box6{
+    justify-content: space-between;
     background-color: bisque;
+}
+.empty{
+    margin-right: 52px;
 }
 /* Footer */
