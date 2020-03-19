@@ -166,7 +166,7 @@ main .middle {
 /* Articles with pictures */
 article{
     position: relative;
-    bottom: 215px;
+    bottom: 230px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ article{
     display: flex;
     flex-direction: column;
     width: 330px;
-    height: 430px;
+    height: 440px;
 }
 article h3{
     font-size: 1.4em;
